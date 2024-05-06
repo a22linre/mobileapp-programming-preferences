@@ -20,7 +20,6 @@ public class SecondActivity extends AppCompatActivity {
         Button btnSave = findViewById(R.id.btnSave);
 
         btnSave.setOnClickListener(view -> {
-            // Write data to SharedPreferences
             String data = etData.getText().toString();
             sharedPreferences.edit().putString("data", data).apply();
             finish();

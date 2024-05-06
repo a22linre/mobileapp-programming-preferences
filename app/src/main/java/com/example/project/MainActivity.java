@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        // Read data from SharedPreferences
         String data = sharedPreferences.getString("data", "");
         tvData.setText(data);
     }
