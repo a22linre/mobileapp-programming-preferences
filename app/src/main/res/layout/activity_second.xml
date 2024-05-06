@@ -5,29 +5,26 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <Button
-        android:id="@+id/btnOpenSecondActivity"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etData"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:text="Open Second Activity"
+        android:layout_marginTop="188dp"
+        android:hint="Enter data"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tvData"
+    <Button
+        android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Data from Second Activity:"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="28dp"
+        android:text="Save"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOpenSecondActivity"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintTop_toBottomOf="@+id/etData" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
